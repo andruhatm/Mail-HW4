@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.flywaydb', name: 'flyway-core', version: '7.0.4'
+    implementation 'org.postgresql:postgresql:42.2.18.jre7'
+}
